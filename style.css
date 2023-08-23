@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.employee-list {
+    flex: 1;
+    padding: 20px;
+}
+
+.calendar {
+    flex: 2;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.days {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.day {
+    flex: 1;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+}
+
+.cell {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.job-section {
+    margin-top: 10px;
+}
+
+.section-checkboxes {
+    margin-top: 5px;
+}
+
+button#send-all-notifications {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
